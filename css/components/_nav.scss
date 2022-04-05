@@ -12,7 +12,7 @@ nav{
         align-items: center;
         align-content: center;
         img{
-
+            
         }
     }
     .menu{
@@ -24,18 +24,20 @@ nav{
             margin: 0 16px 0 16px;
             padding-top: 10px;
             padding-bottom: 10px;
+            &:hover{
+                color: $cor-titulo;
+            }
         }
     }
     .btn__signup{
         padding: 18px 10px;
         background-color: $cor-destaque;
-        color: white;
+        color: $cor-neutra;
         border-radius: 8px;
         margin-left: 12px;
     }
     .btn__login{
         padding: 18px 10px;
         border-radius: 8px;
-        
     }
 }

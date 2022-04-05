@@ -1,0 +1,28 @@
+@import '../abstract/variaveis';
+
+.metrics{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6rem;
+    .card{
+        width: 280px;
+        h2{
+            font-size: 3.75rem;
+            color: $cor-destaque;
+            font-weight: 600;
+        }
+        h3{
+            margin-top: .75rem;
+            font-size: 18px;
+            font-weight: 500;
+            color: $cor-titulo;
+        }
+        p{
+            margin-top: .5rem;
+            font-size: 16px;
+            font-weight: 400;
+            color: $cor-fonte;
+            line-height: 1.5rem;
+        }
+    }
+}

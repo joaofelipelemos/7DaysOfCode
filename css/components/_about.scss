@@ -1,0 +1,29 @@
+@import '../abstract/variaveis';
+
+.about{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;    
+    h2{
+        color: $cor-destaque;
+        font-weight: 600;
+
+    }
+    h1{
+        color: $cor-titulo;
+        font-size: 3rem;
+        font-weight: 600;
+        margin-top: 1.5rem;
+    }
+    .about__text{
+        text-align: center;
+        max-width: 50%;
+        margin-top: 1.5rem;
+        line-height: 1.5rem;
+        padding: 12px 0px 0px;
+    }
+}
