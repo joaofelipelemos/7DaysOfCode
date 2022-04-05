@@ -21,7 +21,9 @@ nav{
         width: 50%;
         max-width: 80%;
         .menu__items{
-            margin-right: 16px;
+            margin: 0 16px 0 16px;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
     }
     .btn__signup{
