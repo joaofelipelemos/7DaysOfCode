@@ -1,0 +1,35 @@
+@import '../abstract/variaveis';
+
+#talents{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    margin-bottom: 4rem;
+    span{
+        color: $cor-destaque;
+        font-weight: 500;
+        background-color: $cor-destaque-5;
+        padding: 4px 12px;
+        border-radius: 1rem ;
+        margin-bottom: 1rem;
+        line-height: 20px;
+    }
+    h2{
+        color: $cor-titulo;
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: .8rem;
+        line-height: 44px;
+    }
+    p{
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-bottom: 4rem;
+        line-height: 30px;
+    }
+    img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,39 @@
+@import '../abstract/variaveis';
+#jobs__top{
+    margin-bottom: 4rem ;
+}
+#jobs{
+    max-width: 768px;
+    .card__jobs-area{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 2rem;
+    }
+    .card__jobs-desc{
+        padding: 24px;
+        border: 1px solid black;
+        border-radius: 1rem;
+        &:not(:last-child){
+            margin-bottom: 1.5rem;
+        }
+        .card__job-name{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28px;
+            margin-bottom: 2rem;
+        }
+        .card__job-info{
+            display: flex;
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.5rem;
+            .card__job-info--tipo{
+                margin-right: 1.5rem ;
+            }
+            .card__job-info--salario{
+    
+            }
+        }
+    }
+}

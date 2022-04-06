@@ -3,10 +3,6 @@
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -76,6 +72,10 @@ body, html {
 .container {
   margin: 0 auto;
   width: 90vw;
+}
+
+.active {
+  background-color: #8E2424;
 }
 
 nav {
@@ -205,5 +205,95 @@ nav .btn__login {
   font-weight: 400;
   color: #667085;
   line-height: 1.5rem;
+}
+
+#talents {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+#talents span {
+  color: #8E2424;
+  font-weight: 500;
+  background-color: rgba(143, 36, 36, 0.05);
+  padding: 4px 12px;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  line-height: 20px;
+}
+
+#talents h2 {
+  color: #101828;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: .8rem;
+  line-height: 44px;
+}
+
+#talents p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  line-height: 30px;
+}
+
+#talents img {
+  width: 100%;
+}
+
+#jobs__top {
+  margin-bottom: 4rem;
+}
+
+#jobs {
+  max-width: 768px;
+}
+
+#jobs .card__jobs-area {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+#jobs .card__jobs-desc {
+  padding: 24px;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+#jobs .card__jobs-desc:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+#jobs .card__jobs-desc .card__job-name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 2rem;
+}
+
+#jobs .card__jobs-desc .card__job-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+#jobs .card__jobs-desc .card__job-info .card__job-info--tipo {
+  margin-right: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
