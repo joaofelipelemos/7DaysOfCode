@@ -1,0 +1,42 @@
+@import '../abstract/variaveis';
+
+#footer{
+    padding: 6rem;
+    background-color: $gray50;
+
+    .footer__container{
+        text-align: center;
+        h2{
+            font-size: 36px;
+            font-weight: 600;
+            color: $cor-titulo;
+            margin-bottom: 20px;
+        }
+        .text__contato{
+            margin-top: 20px;
+            margin-bottom: 40px
+        }
+        .contato{
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            input{
+                width: 30%;
+                padding: 12px;
+                border: 1px gray solid;
+                border-radius: 8px;
+            }
+            a{
+                padding: 18px 10px;
+                background-color: $cor-destaque;
+                color: $cor-neutra;
+                border-radius: 8px;
+
+            }
+        }
+        .rights{
+            margin-top: 2rem;
+            margin-bottom: 6rem;
+        }
+    }
+}

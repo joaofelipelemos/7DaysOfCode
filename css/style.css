@@ -154,7 +154,9 @@ nav .btn__login {
 
 .about h2 {
   color: #8E2424;
-  font-weight: 600;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  line-height: 20px;
 }
 
 .about h1 {
@@ -256,8 +258,13 @@ nav .btn__login {
   margin-bottom: 4rem;
 }
 
+#jobs__bottom {
+  margin-bottom: 6rem;
+}
+
 #jobs {
   max-width: 768px;
+  margin-top: 6rem;
 }
 
 #jobs .card__jobs-area {
@@ -295,5 +302,112 @@ nav .btn__login {
 
 #jobs .card__jobs-desc .card__job-info .card__job-info--tipo {
   margin-right: 1.5rem;
+}
+
+#depo {
+  background-color: rgba(196, 25, 25, 0.03);
+  padding: 4rem;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+#depo .title__depo {
+  font-size: 14px;
+  font-weight: bold;
+  color: #8E2424;
+  margin-bottom: 100px;
+}
+
+#depo .depo__text {
+  font-size: 2.25rem;
+  line-height: 44px;
+  font-weight: 500;
+  color: #101828;
+  margin-top: 16px;
+  margin-bottom: 1rem;
+}
+
+#depo .user__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#depo .user__info .user__img {
+  width: 56px;
+}
+
+#depo .user__info .user__name {
+  width: 50%;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #101828;
+}
+
+#depo .user__info .user__job {
+  font-size: 14px;
+  line-height: 1.5rem;
+  margin-top: .25rem;
+  font-weight: 500;
+  color: #101828;
+  width: 50%;
+}
+
+#footer {
+  padding: 6rem;
+  background-color: #F9FAFB;
+}
+
+#footer .footer__container {
+  text-align: center;
+}
+
+#footer .footer__container h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #101828;
+  margin-bottom: 20px;
+}
+
+#footer .footer__container .text__contato {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#footer .footer__container .contato {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+#footer .footer__container .contato input {
+  width: 30%;
+  padding: 12px;
+  border: 1px gray solid;
+  border-radius: 8px;
+}
+
+#footer .footer__container .contato a {
+  padding: 18px 10px;
+  background-color: #8E2424;
+  color: white;
+  border-radius: 8px;
+}
+
+#footer .footer__container .rights {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
 }
 /*# sourceMappingURL=style.css.map */

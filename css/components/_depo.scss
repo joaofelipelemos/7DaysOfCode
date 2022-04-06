@@ -1,0 +1,46 @@
+@import '../abstract/variaveis';
+
+#depo{
+    background-color: $cor-fundinho;
+    padding: 4rem;
+    text-align: center;
+    margin-bottom: 6rem;
+    .title__depo{
+        font-size: 14px;
+        font-weight: bold;
+        color: $cor-destaque;
+        margin-bottom: 100px;
+    }
+    .depo__text{
+    font-size: 2.25rem;
+    line-height: 44px;
+    font-weight: 500;
+    color: $cor-titulo;
+    margin-top: 16px;
+    margin-bottom: 1rem;
+    }
+    .user__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .user__img{
+            width: 56px;
+        }
+        .user__name{
+            width: 50%;
+            line-height: 1.5rem;
+            margin-top: 1rem;
+            font-weight: 500;
+            color: $cor-titulo;
+        }
+        .user__job{
+            font-size: 14px;
+            line-height: 1.5rem;
+            margin-top: .25rem;
+            font-weight: 500;
+            color: $cor-titulo;
+            width: 50%;
+
+        }
+    }
+}
