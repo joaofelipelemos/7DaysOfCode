@@ -3,6 +3,7 @@
 .metrics{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-bottom: 6rem;
     .card{
         width: 280px;
