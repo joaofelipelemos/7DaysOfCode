@@ -2,7 +2,7 @@
 
 .metrics{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-bottom: 6rem;
     .card{
@@ -26,4 +26,12 @@
             line-height: 1.5rem;
         }
     }
+}
+@media screen and (max-width: 700px){
+    .card{
+        text-align: center;
+        &:not(:last-child){
+            margin-bottom: 3rem;
+        }
+        }
 }

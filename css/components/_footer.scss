@@ -31,12 +31,22 @@
                 background-color: $cor-destaque;
                 color: $cor-neutra;
                 border-radius: 8px;
-
+                
             }
         }
         .rights{
             margin-top: 2rem;
             margin-bottom: 6rem;
+        }
+    }
+}
+@media screen and (max-width: 700px){
+    #footer{
+        padding: 0;
+        .footer__container{
+            margin: 0 auto;
+            width: 90%;
+        
         }
     }
 }
