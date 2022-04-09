@@ -57,13 +57,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Oque eu aprendi:
 
+Utilizar os flexbox para transformar o layout responsivo;
+Lidar com variáveis e tamanhos relativos;
 Usar o SCSS de forma mais eficiente reaproveitando códigos nos diversos componentes;
-Separar em componentes;
+Separar partes do conteúdo em componentes; 
 
-To see how you can add code snippets, see below:
-
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 
 ### Recursos bacanas para utilizar como apoio:
@@ -76,11 +74,3 @@ To see how you can add code snippets, see below:
 - Github - [joaofelipelemos](https://github.com/joaofelipelemos/)
 - Twitter - [@_flemos](https://www.twitter.com/_flemos_)
 - Instagram - [@joaofelipelemos](https://www.instagram.com/joaofelipelemos/)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
