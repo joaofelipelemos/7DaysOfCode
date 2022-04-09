@@ -12,6 +12,10 @@ body, html{
     font-family: $fonte;
     color: $cor-fonte;
     width: 100vw;
+
+    margin: 0 auto;
+
+    scroll-behavior: smooth;
 }
 .container{
     margin: 0 auto;

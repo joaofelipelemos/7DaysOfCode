@@ -67,6 +67,8 @@ body, html {
   font-family: "Inter";
   color: #667085;
   width: 100vw;
+  margin: 0 auto;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -109,9 +111,16 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: none;
+  padding: 0px 5vw;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
 }
 
-nav .logo__container {
+.logo__container {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -122,7 +131,7 @@ nav .logo__container {
       align-content: center;
 }
 
-nav .menu {
+.menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,17 +141,17 @@ nav .menu {
   max-width: 80%;
 }
 
-nav .menu .menu__items {
+.menu .menu__items {
   margin: 0 16px 0 16px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-nav .menu .menu__items:hover {
+.menu .menu__items:hover {
   color: #101828;
 }
 
-nav .btn__signup {
+.btn__signup {
   padding: 18px 10px;
   background-color: #8E2424;
   color: white;
@@ -150,7 +159,7 @@ nav .btn__signup {
   margin-left: 12px;
 }
 
-nav .btn__login {
+.btn__login {
   padding: 18px 10px;
   border-radius: 8px;
 }
@@ -163,6 +172,7 @@ nav .btn__login {
     -webkit-box-pack: none;
         -ms-flex-pack: none;
             justify-content: none;
+    position: relative;
   }
   nav .logo__container {
     margin-top: 5vh;
@@ -463,18 +473,19 @@ nav .btn__login {
   gap: 1rem;
 }
 
-#footer .footer__container .contato input {
+#footer .footer__container .contato .input__email {
   width: 30%;
   padding: 12px;
   border: 1px gray solid;
   border-radius: 8px;
 }
 
-#footer .footer__container .contato a {
+#footer .footer__container .contato .input__submit {
   padding: 18px 10px;
   background-color: #8E2424;
   color: white;
   border-radius: 8px;
+  border: none;
 }
 
 #footer .footer__container .rights {

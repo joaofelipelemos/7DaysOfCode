@@ -6,6 +6,19 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: none;
+
+    padding: 0px 5vw;
+
+    margin: 0 auto;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: white;
+
+    }
     
     .logo__container{
         justify-content: flex-start;
@@ -40,13 +53,14 @@ nav{
         padding: 18px 10px;
         border-radius: 8px;
     }
-}
 @media screen and (max-width: 710px){
     nav{
         width: 100%;
         display: block;
         text-align: center;
         justify-content: none;
+
+        position: relative;
         
         .logo__container{
         margin-top: 5vh;

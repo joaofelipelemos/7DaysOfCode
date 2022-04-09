@@ -20,17 +20,18 @@
             display: flex;
             justify-content: center;
             gap: 1rem;
-            input{
+            .input__email{
                 width: 30%;
                 padding: 12px;
                 border: 1px gray solid;
                 border-radius: 8px;
             }
-            a{
+            .input__submit{
                 padding: 18px 10px;
                 background-color: $cor-destaque;
                 color: $cor-neutra;
                 border-radius: 8px;
+                border: none;
                 
             }
         }
