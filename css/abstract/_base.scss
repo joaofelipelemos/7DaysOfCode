@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
+
     a{
         color: $cor-fonte;
     }
@@ -13,9 +14,10 @@ body, html{
     font-family: $fonte;
     color: $cor-fonte;
     width: 95vw;
-
+    
     margin: 0 auto;
-
+    
+    overflow: hidden;
 }
 .container{
     margin: 0 auto;
